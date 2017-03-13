@@ -27,10 +27,7 @@ require('spectacle/lib/themes/default/index.css');
 
 
 const images = {
-  city: require('../assets/city.jpg'),
-  kat: require('../assets/kat.png'),
-  logo: require('../assets/formidable-logo.svg'),
-  markdown: require('../assets/markdown.png')
+  logo: require('../assets/coopersystem-logo.png')
 };
 
 preloader(images);
@@ -54,7 +51,7 @@ export default class Presentation extends React.Component {
       <Deck theme={theme} transition={['slide']} progress='bar' padding={1}>
         <Slide>
             <Text>
-              Existe um problema grave Coopersystem, que causa bastante stress,
+              Existe um grave problema Coopersystem, que causa bastante stress,
               insegurança, atrapalha investimentos de longo prazo na cooperativa, e
               bem possivelmente, causa impactos na produtividade.
             </Text>
